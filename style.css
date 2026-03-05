@@ -64,19 +64,20 @@ border:none;
 border-radius:10px;
 }
 
-.whatsapp{
-position:fixed;
-bottom:25px;
-right:25px;
-background:#25D366;
+.boton-llamar{
+display:inline-block;
+margin-top:20px;
+padding:15px 25px;
+background-color:#d62828;
 color:white;
-padding:15px 20px;
-border-radius:30px;
-font-weight:bold;
+font-size:20px;
 text-decoration:none;
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
+border-radius:10px;
 }
 
+.boton-llamar:hover{
+background-color:#a61e1e;
+}
 footer{
 background:#0b4ea2;
 color:white;
