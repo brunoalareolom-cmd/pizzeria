@@ -1,0 +1,86 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f6fb;
+}
+
+header{
+background:#0b4ea2;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.logo{
+width:120px;
+}
+
+nav{
+background:#083b7c;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+padding:15px 20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+background:#0b4ea2;
+}
+
+.menu{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.menu h2{
+color:#0b4ea2;
+margin-bottom:20px;
+}
+
+.item{
+display:flex;
+justify-content:space-between;
+padding:10px 0;
+border-bottom:1px solid #ddd;
+font-size:18px;
+}
+
+.mapa{
+text-align:center;
+padding:40px;
+}
+
+iframe{
+width:90%;
+height:300px;
+border:none;
+border-radius:10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+footer{
+background:#0b4ea2;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
